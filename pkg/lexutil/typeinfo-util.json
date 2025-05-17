@@ -1,0 +1,408 @@
+[
+  {
+    "Name": "basicSchema",
+    "Fields": [
+      {
+        "Name": "String",
+        "MapKey": "string",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Unicode",
+        "MapKey": "unicode",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Integer",
+        "MapKey": "integer",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Bool",
+        "MapKey": "bool",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Null",
+        "MapKey": "null",
+        "Pointer": true,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Absent",
+        "MapKey": "absent",
+        "Pointer": true,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": true,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Array",
+        "MapKey": "array",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Object",
+        "MapKey": "object",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      }
+    ],
+    "MandatoryFieldCount": 8,
+    "Transparent": false
+  },
+  {
+    "Name": "basicSchemaInner",
+    "Fields": [
+      {
+        "Name": "String",
+        "MapKey": "string",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Number",
+        "MapKey": "number",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Bool",
+        "MapKey": "bool",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "Arr",
+        "MapKey": "arr",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      }
+    ],
+    "MandatoryFieldCount": 4,
+    "Transparent": false
+  },
+  {
+    "Name": "ipldSchema",
+    "Fields": [
+      {
+        "Name": "A",
+        "MapKey": "a",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "B",
+        "MapKey": "b",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "C",
+        "MapKey": "c",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      }
+    ],
+    "MandatoryFieldCount": 3,
+    "Transparent": false
+  },
+  {
+    "Name": "basicOldSchema",
+    "Fields": [
+      {
+        "Name": "A",
+        "MapKey": "a",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "B",
+        "MapKey": "b",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "C",
+        "MapKey": "c",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "D",
+        "MapKey": "d",
+        "Pointer": true,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": true,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "E",
+        "MapKey": "e",
+        "Pointer": true,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "F",
+        "MapKey": "f",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "G",
+        "MapKey": "g",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      }
+    ],
+    "MandatoryFieldCount": 7,
+    "Transparent": false
+  },
+  {
+    "Name": "basicOldSchemaInner",
+    "Fields": [
+      {
+        "Name": "H",
+        "MapKey": "h",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "I",
+        "MapKey": "i",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "J",
+        "MapKey": "j",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "K",
+        "MapKey": "k",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      }
+    ],
+    "MandatoryFieldCount": 4,
+    "Transparent": false
+  },
+  {
+    "Name": "ipldOldSchema",
+    "Fields": [
+      {
+        "Name": "A",
+        "MapKey": "a",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      },
+      {
+        "Name": "B",
+        "MapKey": "b",
+        "Pointer": false,
+        "Type": {},
+        "Pkg": "github.com/agentio/atiquette/pkg/lexutil",
+        "Const": null,
+        "OmitEmpty": false,
+        "Optional": false,
+        "PreserveNil": false,
+        "IterLabel": "",
+        "MaxLen": -1
+      }
+    ],
+    "MandatoryFieldCount": 2,
+    "Transparent": false
+  }
+]

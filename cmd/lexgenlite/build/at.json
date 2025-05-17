@@ -1,0 +1,9 @@
+[
+    {
+      "package": "noted",
+      "prefix": "at.noted",
+      "outdir": "api/at/noted",
+      "import": "github.com/agentio/atiquette/api/at/noted"
+    }
+  ]
+  

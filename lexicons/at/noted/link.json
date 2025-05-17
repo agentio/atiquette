@@ -1,0 +1,40 @@
+{
+    "$type": "com.atproto.lexicon.schema",
+    "id": "at.noted.link",
+    "lexicon": 1,
+    "defs": {
+        "main": {
+            "type": "record",
+            "key": "tid",
+            "record": {
+                "type": "object",
+                "required": [
+                    "url",
+                    "createdAt"
+                ],
+                "properties": {
+                    "url": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "createdAt": {
+                        "type": "string",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    }
+}

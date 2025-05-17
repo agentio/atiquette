@@ -1,0 +1,87 @@
+{
+    "$type": "com.atproto.lexicon.schema",
+    "id": "at.noted.place",
+    "lexicon": 1,
+    "defs": {
+        "main": {
+            "type": "record",
+            "key": "tid",
+            "record": {
+                "type": "object",
+                "properties": {
+                    "geometry": {
+                        "type": "object",
+                        "properties": {
+                            "coordinates": {
+                                "type": "array",
+                                "items": {
+                                    "type": "integer"
+                                }
+                            },
+                            "type": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "location": {
+                        "type": "object",
+                        "properties": {
+                            "address": {
+                                "type": "string"
+                            },
+                            "country_code": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "url": {
+                        "type": "string",
+                        "format": "url"
+                    },
+                    "rating": {
+                        "type": "integer"
+                    },
+                    "review": {
+                        "type": "string"
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "createdAt": {
+                        "type": "string",
+                        "format": "datetime"
+                    },
+                    "questions": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "question": {
+                                    "type": "string"
+                                },
+                                "rating": {
+                                    "type": "integer"
+                                },
+                                "selected_option": {
+                                    "type": "string"
+                                },
+                                "selected_options": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
