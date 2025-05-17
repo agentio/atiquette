@@ -1,3 +1,3 @@
 # atiquette
 
-A lightweight Lexicon compiler for AT Protocol applications.
+Lightweight tools and components for AT Protocol applications.
