@@ -26,8 +26,8 @@ func NewClient() *Client {
 
 func (c *Client) AuthorizedCopy(r *http.Request) *Client {
 	nc := *c
-	nc.Session = r.Header.Get("atproto-session")
-	nc.Did = r.Header.Get("atproto-did")
+	nc.Session = r.Header.Get("proxy-session")
+	nc.Did = r.Header.Get("did")
 	return &nc
 }
 
@@ -77,8 +77,8 @@ func (c *Client) Do(ctx context.Context, kind xrpc.RequestType, contentType, met
 		}
 	}
 
-	req.Header.Set("atproto-session", c.Session)
-	req.Header.Set("atproto-did", c.Did)
+	req.Header.Set("proxy-session", c.Session)
+	req.Header.Set("did", c.Did)
 
 	resp, err := http.DefaultClient.Do(req.WithContext(ctx))
 	if err != nil {
