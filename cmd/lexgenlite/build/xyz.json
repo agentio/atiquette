@@ -1,8 +1,0 @@
-[
-  {
-    "package": "statusphere",
-    "prefix": "xyz.statusphere",
-    "outdir": "api/xyz/statusphere",
-    "import": "github.com/agentio/atiquette/api/xyz/statusphere"
-  }
-]
